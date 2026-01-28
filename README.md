@@ -1,16 +1,69 @@
-# React + Vite
+# Portfolio - Maxime SEGRETAIN
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfolio web professionnel pour **Maxime SEGRETAIN**, Data Engineer & Analyst spécialisé en géo-données.
 
-Currently, two official plugins are available:
+🌐 **Live Demo**: [https://maximeseg.github.io/portfolio](https://maximeseg.github.io/portfolio)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎯 À propos
 
-## React Compiler
+Site portfolio moderne mettant en avant mes compétences et projets dans le domaine de la data engineering, l'analyse de données et les géo-données (QGIS, Geopandas).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Fonctionnalités
 
-## Expanding the ESLint configuration
+- 🎨 **Design moderne** : Palette blanc/vert/violet avec formes géométriques
+- 🌓 **Mode sombre/clair** : Toggle avec persistance localStorage
+- 📱 **Responsive** : Optimisé mobile, tablette et desktop
+- ⚡ **Performance** : Site rapide et léger
+- 📧 **Formulaire de contact** : Validation côté client
+- 🎭 **Animations** : Hover effects subtils et transitions fluides
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies
+
+- **Framework**: React 19 + Vite 7
+- **Styling**: CSS vanilla avec design system
+- **Déploiement**: GitHub Pages
+- **Gestion d'état**: React Hooks (useState, useEffect)
+
+## 🚀 Installation et lancement
+
+### Prérequis
+- Node.js >= 18
+- npm >= 9
+
+### Installation
+
+```bash
+# Cloner le repository
+git clone https://github.com/maximeSeg/portfolio.git
+cd portfolio
+npm install
+```
+
+### Développement
+
+```bash
+npm run dev
+# Ouvrir http://localhost:3000
+```
+
+### Production
+
+```bash
+npm run build
+npm run preview
+```
+
+## 🔗 Liens
+
+- **LinkedIn**: [linkedin.com/in/maximesegretain](https://www.linkedin.com/in/maximesegretain/)
+- **Email**: mxim.segretain@gmail.com
+
+## 📝 Projets présentés
+
+1. **Pipeline Data Engineering** - Architecture dbt + Airflow (Bronze-Silver-Gold)
+2. **SIG Entreprise** - OpenData avec QGIS et Geopandas
+3. **Catégorisation Électrique** - Machine Learning sur consommations de silos
+
+---
+
+© 2026 Maxime SEGRETAIN. Développé avec ❤️ en React + Vite
