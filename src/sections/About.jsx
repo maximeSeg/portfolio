@@ -26,7 +26,7 @@ const About = () => {
                 <div className="about-grid">
                     <div className="about-image-container fade-in">
                         <img
-                            src="/profile-photo.png"
+                            src={`${import.meta.env.BASE_URL}profile-photo.png`}
                             alt="Maxime SEGRETAIN"
                             className="about-image"
                         />

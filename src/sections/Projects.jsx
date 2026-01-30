@@ -9,21 +9,21 @@ const Projects = () => {
             title: 'Pipeline Data Engineering - dbt + Airflow',
             description: 'Architecture de données en couches Bronze-Silver-Gold pour la transformation et l\'orchestration de données à grande échelle. Pipeline automatisé assurant la qualité des données et le versioning.',
             technologies: ['dbt', 'Airflow', 'SQL', 'Python', 'PostgreSQL'],
-            imageSrc: '/project-dbt-airflow.png',
+            imageSrc: `${import.meta.env.BASE_URL}project-dbt-airflow.png`,
             imageAlt: 'Schéma pipeline Bronze-Silver-Gold'
         },
         {
             title: 'SIG Entreprise - OpenData',
             description: 'Système d\'Information Géographique basé sur des données ouvertes pour l\'analyse spatiale et la cartographie métier. Solution complète de géomarketing et d\'analyse territoriale.',
             technologies: ['QGIS', 'Geopandas', 'PostgreSQL', 'PostGIS', 'Python'],
-            imageSrc: '/project-sig.png',
+            imageSrc: `${import.meta.env.BASE_URL}project-sig.png`,
             imageAlt: 'Carte SIG avec données géographiques'
         },
         {
             title: 'Catégorisation Consommations Électriques',
             description: 'Classification et analyse des consommations électriques de silos industriels. Machine learning pour identifier les patterns de consommation et optimiser l\'efficacité énergétique.',
             technologies: ['Python', 'scikit-learn', 'Pandas', 'Power BI', 'Machine Learning'],
-            imageSrc: '/project-elec.png',
+            imageSrc: `${import.meta.env.BASE_URL}project-elec.png`,
             imageAlt: 'Dashboard analyse consommations électriques'
         }
     ];
